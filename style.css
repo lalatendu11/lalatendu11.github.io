@@ -341,6 +341,28 @@ section .title::after {
     width: 60%;
 }
 
+.services .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.services .title::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: purple;
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
 .skills .title::after {
     content: "what i know";
 }
