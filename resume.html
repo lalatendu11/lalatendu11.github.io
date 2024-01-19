@@ -1,0 +1,394 @@
+<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        height: 100%;
+    }
+    
+    body {
+        min-height: 100%;
+        background: #eee;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        color: #222;
+        font-size: 14px;
+        line-height: 26px;
+        padding-bottom: 50px;
+    }
+    
+    .container {
+        max-width: 700px;
+        background: #fff;
+        margin: 0px auto 0px;
+        box-shadow: 1px 1px 2px #DAD7D7;
+        border-radius: 3px;
+        padding: 40px;
+        margin-top: 50px;
+    }
+    
+    .header {
+        margin-bottom: 30px;
+        .full-name {
+            font-size: 40px;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        .first-name {
+            font-weight: 700;
+        }
+        .last-name {
+            font-weight: 300;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .email,
+        .phone {
+            color: #999;
+            font-weight: 300;
+        }
+        .separator {
+            height: 10px;
+            display: inline-block;
+            border-left: 2px solid #999;
+            margin: 0px 10px;
+        }
+        .position {
+            font-weight: bold;
+            display: inline-block;
+            margin-right: 10px;
+            text-decoration: underline;
+        }
+    }
+    
+    .details {
+        line-height: 20px;
+        .section {
+            margin-bottom: 40px;
+        }
+        .section:last-of-type {
+            margin-bottom: 0px;
+        }
+        .section__title {
+            letter-spacing: 2px;
+            color: #bb0b9e;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .section__list-item {
+            margin-bottom: 40px;
+        }
+        .section__list-item:last-of-type {
+            margin-bottom: 0;
+        }
+        .left,
+        .right {
+            vertical-align: top;
+            display: inline-block;
+        }
+        .left {
+            width: 60%;
+        }
+        .right {
+            tex-align: right;
+            width: 39%;
+        }
+        .name {
+            font-weight: bold;
+        }
+        a {
+            text-decoration: none;
+            color: #000;
+            font-style: italic;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #000;
+        }
+        .skills {}
+        .skills__item {
+            margin-bottom: 10px;
+        }
+        .skills__item .right {
+            input {
+                display: none;
+            }
+            label {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                background: #C3DEF3;
+                border-radius: 20px;
+                margin-right: 3px;
+            }
+            input:checked+label {
+                background: #ba0c86;
+            }
+        }
+    }
+</style>
+
+<div class="container">
+    <div class="header">
+        <div class="full-name">
+            <span class="first-name">LALATENDU</span>
+            <span class="first-name">NAYAK</span>
+        </div>
+        <div class="contact-info">
+            <span class="email">Email: </span>
+            <span class="email-val">lalatendung@gmail.com</span>
+            <span class="separator"></span>
+            <span class="phone">Phone: </span>
+            <span class="phone-val">9348559045</span>
+        </div>
+
+        <div class="about">
+            <span class="position">Python Full Stack Developer </span>
+            <span class="desc">
+    I am a Python Full Stack developer skilled with Django and Python. 
+    As a fresher I am currently looking for new job opportunities where I can implement my 
+    knowledge in a real time environment and also can improve my skills.
+         
+      </span>
+        </div>
+    </div>
+    <div class="details">
+        <div class="section">
+            <div class="section__title" style="font-family: algerian;">
+                <h2>Experience</h2>
+            </div>
+            <div class="section__list">
+                <div class="section__list-item">
+                    <div class="left">
+                        <div class="name">Internship</div>
+                        <hr>
+                        <div class="addr">Highradius</div>
+
+                        <div class="duration">Jun 2022 - Apr 2023</div>
+                    </div>
+                    <div>Worked in L&D Department</div>
+                    <div>Worked with technologies like Flask,ML,Docker,Postman and Git.</div>
+                </div>
+            </div><br>
+            <div class="section">
+                <div class="section__title">
+                    <h2 style="font-family: algerian;">Education</h2>
+                </div>
+                <div class="section__list">
+                    <div class="section__list-item">
+                        <div class="left">
+                            <div class="name">B.Tech </div>
+                            <div>(8.96 CGPA)</div>
+                            <div class="addr">GIET University,Gunupur</div>
+                            <div class="duration">2019-2023</div>
+                        </div>
+                        <div class="right">
+                            <div class="name"><b>12th</b></div>
+                            <div>75.66%</div>
+                            <div>GBIST,Mancheswar,BBSR</div>
+                            <div class="desc">2016 - 2018</div>
+                        </div>
+                    </div>
+                    <div class="section__list">
+                        <div class="section__list-item">
+                            <div class="left">
+                                <div class="name">10th</div>
+                                <div>81.33%</div>
+                                <div class="addr">Panchayat high School,Khandabandha</div>
+                                <div class="duration">2015-2016</div>
+                            </div>
+
+
+                        </div>
+
+                    </div><br>
+                    <div class="section">
+                        <div class="section__title">
+                            <h2 style="font-family: algerian;">Projects</h2><br>
+                        </div>
+                        <div class="section__list">
+                            <div class="section__list-item">
+                                <div class="name">
+                                    <h3>Ecommerce Website</h3>
+                                </div>
+                                <hr>
+                                <ul>
+                                    <li>
+                                        <div class="text" style="justify-content: center;">Developed a fully functional e-commerce website using Django and Bootstrap, showcasing proficiency in full-stack web development.</div>
+                                    </li>
+                                    <li>
+                                        <div class="text">Designed and implemented a dynamic e-commerce platform to facilitate online buying and selling. Leveraged Django for backend development, including user authentication, order processing, and database management.
+                                            Utilized Bootstrap for responsive and visually appealing frontend interfaces, ensuring a seamless user experience across devices</div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div class="section__list">
+                                    <div class="section__list-item">
+                                        <div class="name">
+                                            <h3>Bankloan Prediction</h3>
+                                            <hr>
+                                        </div>
+                                        <ul>
+                                            <li>
+                                                <div class="text" style="justify-content: center;">Designed and implemented a predictive model for bank loan approval using machine learning algorithms, showcasing proficiency in data analysis and predictive modeling.</div>
+                                            </li>
+                                            <li>
+                                                <div class="text">Developed a machine learning solution to assist banks in automating the loan approval process, optimizing decision-making based on historical customer data. Employed various supervised learning algorithms
+                                                    to predict the likelihood of loan approval, enhancing efficiency and reducing the risk of non-performing loans.</li>
+                                        </ul>
+                                        </div>
+
+                                    </div><br>
+                                    <div>
+                                        <div class="section__list">
+                                            <div class="section__list-item">
+                                                <div class="name">
+                                                    <h3>Covid-19 Analysis</h3>
+                                                    <hr>
+                                                </div>
+                                                <ul>
+                                                    <li>
+                                                        <div class="text" style="justify-content: center;">Developed a comprehensive COVID-19 analysis dashboard using Power BI, showcasing data visualization and analytical skills to provide insights into the global pandemic. </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="text">Designed and implemented an interactive and visually appealing Power BI dashboard to analyze and visualize COVID-19 data from various sources. The dashboard aimed to provide stakeholders with real-time
+                                                            insights into the spread of the virus, vaccination progress, and other key metrics.</li>
+                                                </ul>
+                                                </div>
+
+                                            </div><br>
+                                            <div class="section">
+                                                <div class="section__title">
+                                                    <h2 style="font-family: algerian;">Skills</h2><br></div>
+                                                <div class="skills">
+                                                    <div class="skills__item">
+                                                        <div class="left">
+                                                            <div class="name">
+                                                                Python
+                                                            </div>
+                                                        </div>
+                                                        <div class="right">
+                                                            <input id="ck1" type="checkbox" checked/>
+
+                                                            <label for="ck1"></label>
+                                                            <input id="ck2" type="checkbox" checked/>
+
+                                                            <label for="ck2"></label>
+                                                            <input id="ck3" type="checkbox" checked/>
+
+                                                            <label for="ck3"></label>
+                                                            <input id="ck4" type="checkbox" checked/>
+                                                            <label for="ck4"></label>
+                                                            <input id="ck5" type="checkbox" />
+                                                            <label for="ck5"></label>
+
+                                                        </div>
+                                                        <div class="skills__item">
+                                                            <div class="left">
+                                                                <div class="name">
+                                                                    Backend(Django)</div>
+                                                            </div>
+                                                            <div class="right">
+                                                                <input id="ck1" type="checkbox" checked/>
+
+                                                                <label for="ck1"></label>
+                                                                <input id="ck2" type="checkbox" checked/>
+
+                                                                <label for="ck2"></label>
+                                                                <input id="ck3" type="checkbox" checked/>
+
+                                                                <label for="ck3"></label>
+                                                                <input id="ck4" type="checkbox" checked/>
+                                                                <label for="ck4"></label>
+                                                                <input id="ck5" type="checkbox" />
+                                                                <label for="ck5"></label>
+                                                            </div>
+                                                            <div class="skills__item">
+                                                                <div class="left">
+                                                                    <div class="name">
+                                                                        Frontend(HTML,CSS,BOOTSTRAP,JS)</div>
+                                                                </div>
+                                                                <div class="right">
+                                                                    <input id="ck1" type="checkbox" checked/>
+
+                                                                    <label for="ck1"></label>
+                                                                    <input id="ck2" type="checkbox" checked/>
+
+                                                                    <label for="ck2"></label>
+                                                                    <input id="ck3" type="checkbox" checked/>
+
+                                                                    <label for="ck3"></label>
+                                                                    <input id="ck4" type="checkbox" />
+                                                                    <label for="ck4"></label>
+                                                                    <input id="ck5" type="checkbox" />
+                                                                    <label for="ck5"></label>
+
+
+                                                                </div>
+                                                                <div class="skills__item">
+                                                                    <div class="left">
+                                                                        <div class="name">
+                                                                            Database(DB,SQL,ORACLE)</div>
+                                                                    </div>
+                                                                    <div class="right">
+                                                                        <input id="ck1" type="checkbox" checked/>
+
+                                                                        <label for="ck1"></label>
+                                                                        <input id="ck2" type="checkbox" checked/>
+
+                                                                        <label for="ck2"></label>
+                                                                        <input id="ck3" type="checkbox" checked/>
+
+                                                                        <label for="ck3"></label>
+                                                                        <input id="ck4" type="checkbox" checked/>
+                                                                        <label for="ck4"></label>
+                                                                        <input id="ck5" type="checkbox" />
+                                                                        <label for="ck5"></label>
+                                                                    </div><br>
+
+                                                                    <div class="section">
+                                                                        <div class="section__title">
+                                                                            <h2 style="font-family: algerian;">Certificates</h2><br>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="section__list">
+                                                                    <div class="section__list-item">
+                                                                        <ul>
+                                                                            <li>Cloud Computing(12 week Certified course by IIT Kharagpur)</li>
+                                                                            <li>HTML Workshop by GeeksforGeeks(A 8 weeks Html course by GeeksforGeeks)</li>
+                                                                            <li>Data analyst using power bi(Completed data analyst course using powerbi .)</li>
+
+                                                                        </ul>
+                                                                    </div>
+
+                                                                    <br>
+                                                                    <div class="section">
+                                                                        <div class="section__title">
+                                                                            <h2 style="font-family: algerian;">Interests</h2><br>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <div class="section__list">
+                                                                    <div class="section__list-item">
+                                                                        <ul>
+                                                                            <li>Programming,Learning new tecnologies</li>
+                                                                            <li>Gardening</li>
+                                                                            <li>Digital Painting and Photo editing</li>
+
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
