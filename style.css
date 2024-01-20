@@ -316,6 +316,10 @@ section .title::after {
     content: "What I have done!";
 }
 
+.services .services-content .right .text span {
+    color: purple;
+}
+
 .services-row {
     display: flex;
     justify-content: space-around;
@@ -332,7 +336,7 @@ section .title::after {
 }
 
 .services-box:hover {
-    background: plum;
+    background: rgb(92, 3, 92);
     color: white;
     transition: 0.4s;
 }
@@ -453,6 +457,39 @@ section .title::after {
 
 
 /* contact section styling */
+
+
+/* Add styles to customize the button appearance */
+
+.purple-button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purple-button2 {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purple-button2:hover {
+    background-color: rgb(255, 254, 255);
+    color: rgb(0, 0, 0);
+}
+
+.purple-button:hover {
+    background-color: rgb(0, 0, 0);
+    /* Darker shade of purple on hover */
+}
 
 .contact .title::after {
     content: "get in touch";
