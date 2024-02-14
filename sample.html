@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Certificates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .certificate-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .certificate-header h1 {
+            color: purple;
+        }
+        
+        .certificate-header hr {
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid purple;
+        }
+        
+        .certificate-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .box {
+            width: calc(33.33% - 20px);
+            height: 250px;
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+        
+        .box img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .button {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 10px;
+            background-color: purple;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="certificate-header">
+        <h1><img src="741087_award_512x512.png" alt="Certificate Logo" style="height: 50px;"> MY CERTIFICATES <img src="741087_award_512x512.png" alt="Certificate Logo" style="height: 50px;"></h1>
+        <hr>
+    </div>
+
+
+    <div class="certificate-container">
+        <div class="box">
+            <object id="pdfObject" data="python_basic_certificate.pdf" width="1000%" height="400"></object>
+            <button class="button" onclick="downloadPDF('python_basic_certificate.pdf')">Show PDF</button>
+        </div>
+
+        <div class="box">
+            <object data="python_basic_certificate.pdf" width="1000%" height="400"></object>
+            <button class="button" onclick="downloadPDF('python_basic_certificate.pdf')">Show PDF</button>
+        </div>
+
+        <div class="box">
+            <object data="python_basic_certificate.pdf" width="1000%" height="400"></object>
+            <button class="button" onclick="downloadPDF('python_basic_certificate.pdf')">Show PDF</button>
+        </div>
+
+        <div class="box">
+            <object data="python_basic_certificate.pdf" width="1000%" height="400"></object>
+            <button class="button" onclick="downloadPDF('python_basic_certificate.pdf')">Show PDF</button>
+        </div>
+
+        <div class="box">
+            <object data="python_basic_certificate.pdf" width="1000%" height="400"></object>
+            <button class="button" onclick="downloadPDF('python_basic_certificate.pdf')">Show PDF</button>
+        </div>
+
+        <div class="box">
+            <object data="python_basic_certificate.pdf" width="1000%" height="400"></object>
+            <button class="button" onclick="downloadPDF('python_basic_certificate.pdf')">Show PDF</button>
+        </div>
+
+
+
+
+    </div>
+
+    <script>
+        function togglePDF() {
+            var pdfObject = document.getElementById("pdfObject");
+            if (pdfObject.style.display === "none") {
+                pdfObject.style.display = "block";
+            } else {
+                pdfObject.style.display = "none";
+            }
+        }
+
+        function downloadPDF(pdfUrl) {
+            window.location.href = pdfUrl;
+        }
+    </script>
+</body>
+
+</html>
