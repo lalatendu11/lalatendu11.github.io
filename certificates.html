@@ -12,6 +12,10 @@
             padding: 20px;
         }
         
+        h4 {
+            color: green;
+        }
+        
         .certificate-header {
             text-align: center;
             margin-bottom: 20px;
@@ -35,7 +39,7 @@
         
         .box {
             width: calc(33.33% - 20px);
-            height: 250px;
+            height: 350px;
             margin-bottom: 20px;
             position: relative;
             overflow: hidden;
@@ -60,6 +64,29 @@
             cursor: pointer;
             ;
         }
+        
+        .minibutton {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .minibutton:hover {
+            background-color: #45a049;
+        }
+        
+        .minibutton:active {
+            background-color: #3e8e41;
+        }
     </style>
 </head>
 
@@ -72,50 +99,81 @@
 
     <div class="certificate-container">
         <div class="box">
-            <object id="pdfObject" data="python_basic_certificate.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('python_basic_certificate.pdf')">Show PDF</button>
-        </div>
+            <h4> Udemy Python Programming Certification </h4>
+            <button class="minibutton" onclick="downloadPDF('cert/python_UDEMY.pdf')">Show PDF</button>
+            <hr>
 
-        <div class="box">
-            <object data="Cloud_computing.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('Cloud_computing.pdf')">Show PDF</button>
-        </div>
+            <object id="pdfObject" data="cert/python_UDEMY.pdf" width="90%" height="400"></object>
 
-        <div class="box">
-            <object data="highradius_internship.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('highradius_internship.pdf')">Show PDF</button>
-        </div>
-
-        <div class="box">
-            <object data="lagozon_intern.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('lagozon_intern.pdf')">Show PDF</button>
-        </div>
-
-        <div class="box">
-            <object data="GFG_html.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('GFG_html.pdf')">Show PDF</button>
-        </div>
-
-        <div class="box">
-            <object data="sem_marks.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('sem_marks.pdf')">Show PDF</button>
-        </div>
-
-        <div class="box">
-            <object data="Guvi_GameDevelopment.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('Guvi_GameDevelopment.pdf')">Show PDF</button>
         </div>
 
 
         <div class="box">
-            <object data="Microsoft_Excel.pdf" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('Microsoft_Excel.pdf')">Show PDF</button>
+            <h4> HackerRank Python Basic Certification </h4>
+            <button class="minibutton" onclick="downloadPDF('cert/python_basic_certificate.pdf')">Show PDF</button>
+            <hr>
+
+            <object id="pdfObject" data="cert/python_basic_certificate.pdf" width="90%" height="400"></object>
+
         </div>
 
         <div class="box">
-            <object data="" width="1000%" height="400"></object>
-            <button class="button" onclick="downloadPDF('')">Show PDF</button>
+            <h4> Cloud-computing Certification by IIT Kharagpur</h4>
+            <button class="minibutton" onclick="downloadPDF('cert/Cloud_computing.pdf')">Show PDF</button>
+            <hr>
+            <object data="cert/Cloud_computing.pdf" width="90%" height="400"></object>
+
         </div>
+
+        <div class="box">
+            <h4> Highradius Internship </h4>
+            <button class="minibutton" onclick="downloadPDF('cert/highradius_internship.pdf')">Show PDF</button>
+            <hr>
+            <object data="cert/highradius_internship.pdf" width="90%" height="400"></object>
+
+        </div>
+
+        <div class="box">
+            <h4> Lagozon Internship </h4>
+            <button class="minibutton" onclick="downloadPDF('cert/lagozon_intern.pdf')">Show PDF</button>
+            <hr>
+            <object data="cert/lagozon_intern.pdf" width="90%" height="400"></object>
+
+        </div>
+
+        <div class="box">
+            <h4> GFG HTML 8 week Workshop</h4>
+            <button class="minibutton" onclick="downloadPDF('cert/GFG_html.pdf')">Show PDF</button>
+            <hr>
+            <object data="cert/GFG_html.pdf" width="90%" height="400"></object>
+
+        </div>
+
+        <div class="box">
+            <h4> Academic Semestar Marks </h4>
+            <button class="minibutton" onclick="downloadPDF('cert/sem_marks.pdf')">Show PDF</button>
+            <hr>
+            <object data="cert/sem_marks.pdf" width="90%" height="400"></object>
+
+        </div>
+
+        <div class="box">
+            <h4> Guvi Game Development </h4>
+            <button class="minibutton" onclick="downloadPDF('cert/Guvi_GameDevelopment.pdf')">Show PDF</button>
+            <hr>
+            <object data="cert/Guvi_GameDevelopment.pdf" width="90%" height="400"></object>
+
+        </div>
+
+
+        <div class="box">
+            <h4> Microsoft Excel Masterclass Certification </h4>
+            <button class="minibutton" onclick="downloadPDF('cert/Microsoft_Excel.pdf')">Show PDF</button>
+            <hr>
+            <object data="cert/Microsoft_Excel.pdf" width="90%" height="400"></object>
+
+        </div>
+
 
 
 
